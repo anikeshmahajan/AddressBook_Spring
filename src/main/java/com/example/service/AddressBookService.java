@@ -12,37 +12,40 @@ import com.example.model.AddressBookData;
 @Service
 public class AddressBookService implements IAddressBookService {
 
+	private List <AddressBookData >addressBookData = new ArrayList<>();
 	@Override
 	public List<AddressBookData> getContacts() {
 		
-		
-		List <AddressBookData >addressBookData = new ArrayList<>();
-		addressBookData.add(new AddressBookData(5, new AddressBookDTO("Raju", "punjab")));
-
+//		addressBookData.add(new AddressBookData(5, new AddressBookDTO("Raju", "punjab")));
 		return addressBookData;
 	}
 
 	@Override
 	public AddressBookData getContactById(int id) {
-		AddressBookData addressBookData = new AddressBookData(1,new AddressBookDTO("Jammu", "J&k"));
-		return addressBookData;
+		
+		return addressBookData.get(id-1);
 	}
 
 	@Override
 	public AddressBookData createContact(AddressBookDTO addressBookDto) {
-	AddressBookData addressBookData =	new AddressBookData(1, addressBookDto);
-		return addressBookData;
+	AddressBookData addressData =	new AddressBookData(addressBookData.size()+1, addressBookDto);
+	addressBookData.add(addressData);
+		return addressData;
 	}
 
 	@Override
 	public AddressBookData updateContact(int id, AddressBookDTO addressBookDto) {
-		AddressBookData addressBookData = new AddressBookData(id, addressBookDto);
-		return addressBookData;
+		AddressBookData addressData = this.getContactById(id);
+		addressData.setName(addressBookDto.name);
+		addressData.setAddress(addressBookDto.address);
+		addressBookData.set(id-1, addressData);
+		
+		return addressData;
 	}
 
 	@Override
 	public void deleteContact(int id) {
-		// TODO Auto-generated method stub
+		addressBookData.remove(id-1);
 		
 	}
 	
