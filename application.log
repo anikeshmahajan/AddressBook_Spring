@@ -354,3 +354,377 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2021-06-25 22:20:46.505  WARN 7342 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.dto.ResponseDTO> com.example.controller.AddressBookController.addContact(com.example.dto.AddressBookDTO): [Field error in object 'addressBookDTO' on field 'name': rejected value [nik.  ]; codes [Pattern.addressBookDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@388f3e42,^[A-Z]{1}[a-zA-Z\s]{2,}$]; default message [ Name Invalid]] ]
 2021-06-25 22:20:51.453  WARN 7342 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.dto.ResponseDTO> com.example.controller.AddressBookController.addContact(com.example.dto.AddressBookDTO): [Field error in object 'addressBookDTO' on field 'name': rejected value [Aik.  ]; codes [Pattern.addressBookDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@388f3e42,^[A-Z]{1}[a-zA-Z\s]{2,}$]; default message [ Name Invalid]] ]
 2021-06-25 22:22:46.107  WARN 7342 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.dto.ResponseDTO> com.example.controller.AddressBookController.addContact(com.example.dto.AddressBookDTO): [Field error in object 'addressBookDTO' on field 'name': rejected value [ik  ]; codes [Pattern.addressBookDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@388f3e42,^[A-Z]{1}[a-zA-Z\s]{2,}$]; default message [ Name Invalid]] ]
+2021-06-25 22:32:52.055  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 7342 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 22:32:52.059 DEBUG 7342 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:32:52.059  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 22:32:53.246  WARN 7342 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:32:53.407  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 1.71 seconds (JVM running for 2432.794)
+2021-06-25 22:32:53.410  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 22:32:53.410  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 22:33:09.049  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 7342 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 22:33:09.057 DEBUG 7342 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:33:09.057  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 22:33:10.232  WARN 7342 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:33:10.545  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 1.599 seconds (JVM running for 2449.932)
+2021-06-25 22:33:10.549  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 22:33:10.550  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 22:34:13.199  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 7342 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 22:34:13.202 DEBUG 7342 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:34:13.202  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 22:34:14.140  WARN 7342 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:34:14.327  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 1.264 seconds (JVM running for 2513.713)
+2021-06-25 22:34:14.334  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 22:34:14.335  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 22:36:36.713  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 7342 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 22:36:36.718 DEBUG 7342 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:36:36.718  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 22:36:37.600  WARN 7342 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:36:37.799  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 1.343 seconds (JVM running for 2657.182)
+2021-06-25 22:36:37.801  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 22:36:37.801  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 22:39:36.414  WARN 7342 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Retrograde clock change detected (housekeeper delta=28s731ms), soft-evicting connections from pool.
+2021-06-25 22:40:27.298  WARN 7342 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=50s884ms).
+2021-06-25 22:48:48.429  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 7342 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 22:48:48.431 DEBUG 7342 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:48:48.432  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 22:48:49.410  WARN 7342 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:48:49.567  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 1.349 seconds (JVM running for 3369.355)
+2021-06-25 22:48:49.570  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 22:48:49.571  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 22:53:58.582  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 7342 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 22:53:58.586 DEBUG 7342 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:53:58.586  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 22:53:59.473  WARN 7342 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:53:59.611  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 1.224 seconds (JVM running for 3679.395)
+2021-06-25 22:53:59.615  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 22:53:59.616  INFO 7342 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 22:54:58.252  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 9570 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 22:54:58.262 DEBUG 9570 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:54:58.263  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 22:55:09.982  WARN 9570 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:55:11.596  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 15.029 seconds (JVM running for 18.678)
+2021-06-25 22:55:11.603  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 22:55:11.610  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 22:57:54.434  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 9570 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 22:57:54.435 DEBUG 9570 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:57:54.435  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 22:57:55.747  WARN 9570 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:57:56.437  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 2.308 seconds (JVM running for 183.517)
+2021-06-25 22:57:56.460  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 22:57:56.461  INFO 9570 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 22:58:46.783  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 9723 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 22:58:46.793 DEBUG 9723 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 22:58:46.793  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 22:58:57.308  WARN 9723 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 22:58:58.665  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 13.578 seconds (JVM running for 17.26)
+2021-06-25 22:58:58.674  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 22:58:58.682  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 22:59:10.958 ERROR 9723 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.example.exceptions.AddressBookException: No Contact Found] with root cause
+
+com.example.exceptions.AddressBookException: No Contact Found
+	at com.example.service.AddressBookService.lambda$1(AddressBookService.java:29) ~[main/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408) ~[na:na]
+	at com.example.service.AddressBookService.getContactById(AddressBookService.java:29) ~[main/:na]
+	at com.example.controller.AddressBookController.getContactById(AddressBookController.java:43) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-06-25 23:07:45.965  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 9723 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 23:07:45.965 DEBUG 9723 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 23:07:45.966  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 23:07:46.891  WARN 9723 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 23:07:47.117  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 1.435 seconds (JVM running for 545.705)
+2021-06-25 23:07:47.121  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 23:07:47.121  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 23:07:52.953  WARN 9723 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler com.example.exceptions.AddressBookExceptionHandler#handleAddressBookException(AddressBookException)
+
+java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete BlockStatements
+
+	at com.example.exceptions.AddressBookExceptionHandler.handleAddressBookException(AddressBookExceptionHandler.java:34) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1323) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-06-25 23:07:52.958 ERROR 9723 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.example.exceptions.AddressBookException: No Contact Found] with root cause
+
+com.example.exceptions.AddressBookException: No Contact Found
+	at com.example.service.AddressBookService.lambda$1(AddressBookService.java:29) ~[main/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408) ~[na:na]
+	at com.example.service.AddressBookService.getContactById(AddressBookService.java:29) ~[main/:na]
+	at com.example.controller.AddressBookController.getContactById(AddressBookController.java:43) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-06-25 23:09:15.941  WARN 9723 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Failure in @ExceptionHandler com.example.exceptions.AddressBookExceptionHandler#handleAddressBookException(AddressBookException)
+
+java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete BlockStatements
+
+	at com.example.exceptions.AddressBookExceptionHandler.handleAddressBookException(AddressBookExceptionHandler.java:34) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:141) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1323) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1134) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-06-25 23:09:15.950 ERROR 9723 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.example.exceptions.AddressBookException: No Contact Found] with root cause
+
+com.example.exceptions.AddressBookException: No Contact Found
+	at com.example.service.AddressBookService.lambda$1(AddressBookService.java:29) ~[main/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408) ~[na:na]
+	at com.example.service.AddressBookService.getContactById(AddressBookService.java:29) ~[main/:na]
+	at com.example.controller.AddressBookController.getContactById(AddressBookController.java:43) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.46.jar:9.0.46]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-06-25 23:09:27.883  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 9723 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-25 23:09:27.885 DEBUG 9723 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-25 23:09:27.885  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-25 23:09:28.669  WARN 9723 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 23:09:28.881  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 1.052 seconds (JVM running for 647.468)
+2021-06-25 23:09:28.884  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 23:09:28.884  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-25 23:09:41.118  WARN 9723 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.exceptions.AddressBookException: No Contact Found]
