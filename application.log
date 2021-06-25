@@ -107,3 +107,4 @@
 2021-06-25 20:05:51.810  WARN 5276 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2021-06-25 20:05:52.005  INFO 5276 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 0.912 seconds (JVM running for 258.536)
 2021-06-25 20:05:52.009  INFO 5276 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
+2021-06-25 20:18:31.221  WARN 5276 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=4m39s274ms).
