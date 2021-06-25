@@ -1,5 +1,8 @@
 package com.example.dto;
 
+import lombok.Data;
+
+@Data
 public class AddressBookDTO {
 
 	public String name,address;
@@ -15,28 +18,5 @@ public class AddressBookDTO {
 		
 	}
 		
-			public String getName() {
-				return name;
-			}
-		
-			public String getAddress() {
-				return address;
-			}
-		
-			public void setName(String name) {
-				this.name = name;
-			}
-		
-			public void setAddress(String address) {
-				this.address = address;
-			}
-
-			
-			
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return  "name :  " + name +  "    +      " + "address  : " + address;
-	}
 	
 }

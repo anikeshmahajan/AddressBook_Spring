@@ -1,5 +1,8 @@
 package com.example.dto;
 
+import lombok.Data;
+
+@Data
 public class ResponseDTO {
 
 	private String mssg;
@@ -13,24 +16,5 @@ public class ResponseDTO {
 	}
 
 
-	public String getMssg() {
-		return mssg;
-	}
-
-
-	public Object getData() {
-		return data;
-	}
-
-
-	public void setMssg(String mssg) {
-		this.mssg = mssg;
-	}
-
-
-	public void setData(Object data) {
-		this.data = data;
-	}
-	
 	
 }
