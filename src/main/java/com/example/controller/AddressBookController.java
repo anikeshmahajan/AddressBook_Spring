@@ -2,6 +2,8 @@ package com.example.controller;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -46,7 +48,7 @@ public class AddressBookController {
 	
 	@PostMapping("/create")
 	public ResponseEntity<ResponseDTO> addContact(
-			 @RequestBody AddressBookDTO addressBookDto)
+			@Valid @RequestBody AddressBookDTO addressBookDto)
 	{
 		
 		AddressBookData addressBookData =service.createContact(addressBookDto);
@@ -56,7 +58,7 @@ public class AddressBookController {
 	
 	@PutMapping("/update/{id}")
 	public ResponseEntity<ResponseDTO> updateContact(
-			@PathVariable("id") int id,  @RequestBody AddressBookDTO addressBookDto)
+			@PathVariable("id") int id,  @Valid  @RequestBody AddressBookDTO addressBookDto)
 	{
 		AddressBookData addressBookData =service.updateContact(id, addressBookDto);
 		ResponseDTO responseDTO = new ResponseDTO("Contact Created Success :" + addressBookDto , addressBookData);
