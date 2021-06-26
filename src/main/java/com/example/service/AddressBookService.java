@@ -1,55 +1,58 @@
 package com.example.service;
 
-import java.util.ArrayList;
 import java.util.List;
-
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.example.dto.AddressBookDTO;
 import com.example.exceptions.AddressBookException;
 import com.example.model.AddressBookData;
+import com.example.repository.AddressBookRepository;
+
+import lombok.extern.slf4j.Slf4j;
 
 @Service
+@Slf4j
 public class AddressBookService implements IAddressBookService {
 
-	private List <AddressBookData >addressBookData = new ArrayList<>();
+	@Autowired
+	private AddressBookRepository addressBookData;
+
 	@Override
 	public List<AddressBookData> getContacts() {
 		
-//		addressBookData.add(new AddressBookData(5, new AddressBookDTO("Raju", "punjab")));
-		return addressBookData;
+		return addressBookData.findAll();
 	}
 
 	@Override
 	public AddressBookData getContactById(int id) {
 		
-		return addressBookData.stream()
-				.filter(addressData -> addressData.getAddressid() == id)
-				.findFirst()
+		return addressBookData
+				.findById(id)
 				.orElseThrow(() ->new AddressBookException("No Contact Found"));
 	}
 
 	@Override
 	public AddressBookData createContact(AddressBookDTO addressBookDto) {
-	AddressBookData addressData =	new AddressBookData(addressBookData.size()+1, addressBookDto);
-	addressBookData.add(addressData);
-		return addressData;
+	AddressBookData addressData =	new AddressBookData( addressBookDto);
+	log.debug("Address Data",addressData.toString());
+		return addressBookData.save(addressData);
 	}
 
 	@Override
 	public AddressBookData updateContact(int id, AddressBookDTO addressBookDto) {
 		AddressBookData addressData = this.getContactById(id);
-		addressData.setName(addressBookDto.name);
-		addressData.setAddress(addressBookDto.address);
-		addressBookData.set(id-1, addressData);
+		addressData.updateAddressBookData(addressBookDto);
+	
 		
-		return addressData;
+		
+		return addressBookData.save(addressData);
 	}
 
 	@Override
 	public void deleteContact(int id) {
 		
-		addressBookData.remove(id-1);
+	AddressBookData addressData = this.getContactById(id);
+	addressBookData.delete(addressData);
 		
 	}
 	

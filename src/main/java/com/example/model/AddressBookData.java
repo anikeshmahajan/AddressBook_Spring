@@ -1,12 +1,21 @@
 package com.example.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
 import com.example.dto.AddressBookDTO;
 
 import lombok.Data;
 
-@Data
-  public class AddressBookData {
+ @Entity
+ @Table(name = "AddressBook")
+  public @Data class AddressBookData {
 
+	 @Id
+	 @GeneratedValue(strategy = GenerationType.AUTO)
 	private int addressid;
 	private String name, address,gender;
 	
@@ -15,9 +24,9 @@ public AddressBookData() {
 		
 	}
 
-public AddressBookData(int id, AddressBookDTO addressBookDto) {
+public AddressBookData( AddressBookDTO addressBookDto) {
 	
-	this.addressid = id;
+	
 	this.updateAddressBookData(addressBookDto);
 	
 	
