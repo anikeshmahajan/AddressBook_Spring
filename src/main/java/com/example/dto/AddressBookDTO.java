@@ -11,10 +11,11 @@ public class AddressBookDTO {
 	@NotBlank(message = "Field Cannot be empty")
 	@Pattern(regexp = "^[A-Z]{1}[a-zA-Z\\s]{2,}$",message = " Name Invalid")
 	public String name;
-	@NotBlank
+	@NotBlank(message = "Field Cannot be empty")
 	public String address;
 	
-	@NotBlank
+	@NotBlank(message = "Field Cannot be empty")
+	@Pattern(regexp = "male|female", message = "gender should be male pr female")
 	public String gender;
 	
 	
