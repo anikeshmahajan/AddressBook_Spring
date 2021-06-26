@@ -1,6 +1,8 @@
 package com.example.service;
 
 import java.util.List;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.example.dto.AddressBookDTO;
@@ -50,10 +52,11 @@ public class AddressBookService implements IAddressBookService {
 
 	@Override
 	public void deleteContact(int id) {
-		
-	AddressBookData addressData = this.getContactById(id);
-	addressBookData.delete(addressData);
-		
+			
+	AddressBookData item= addressBookData.findById(id).
+								orElseThrow(() ->new AddressBookException("Not present")) ;
+	
+		addressBookData.delete(item);
 	}
 	
 	

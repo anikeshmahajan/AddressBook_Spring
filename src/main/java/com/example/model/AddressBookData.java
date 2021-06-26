@@ -17,7 +17,7 @@ import lombok.Data;
 	 @Id
 	 @GeneratedValue(strategy = GenerationType.AUTO)
 	private int addressid;
-	private String name, address,gender;
+	private String name, address,gender,city,state,zip,phno;
 	
 	
 public AddressBookData() {
@@ -36,6 +36,11 @@ public void updateAddressBookData(AddressBookDTO addressBookDto)
 	this.name = addressBookDto.name;
 	this.address = addressBookDto.address;
 	this.gender = addressBookDto.gender;
+	this.city=addressBookDto.city;
+	this.phno= addressBookDto.phno;
+	this.zip = addressBookDto.zip;
+	this.state=addressBookDto.state;
+	
 }
 
 	
