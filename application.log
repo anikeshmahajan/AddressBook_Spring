@@ -287,3 +287,10 @@ javax.validation.UnexpectedTypeException: HV000030: No validator could be found 
 2021-06-26 07:43:16.520  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 0.884 seconds (JVM running for 3609.041)
 2021-06-26 07:43:16.523  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  DEV Environment
 2021-06-26 07:43:16.524  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
+2021-06-26 07:46:28.687  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : Starting AddressBookApplication using Java 11.0.9 on Anikeshs-MacBook-Air.local with PID 9723 (/Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook/bin/main started by anikesh in /Users/anikesh/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/AddressBook)
+2021-06-26 07:46:28.690 DEBUG 9723 --- [restartedMain] com.example.AddressBookApplication       : Running with Spring Boot v2.5.1, Spring v5.3.8
+2021-06-26 07:46:28.691  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : The following profiles are active: dev
+2021-06-26 07:46:29.775  WARN 9723 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-26 07:46:29.968  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : Started AddressBookApplication in 1.492 seconds (JVM running for 3802.477)
+2021-06-26 07:46:29.970  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddressBook Application is Starting  in  dev Environment
+2021-06-26 07:46:29.971  INFO 9723 --- [restartedMain] com.example.AddressBookApplication       : AddessBook DB user is root 
