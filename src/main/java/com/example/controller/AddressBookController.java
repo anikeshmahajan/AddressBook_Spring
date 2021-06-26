@@ -21,9 +21,12 @@ import com.example.dto.ResponseDTO;
 import com.example.model.AddressBookData;
 import com.example.service.IAddressBookService;
 
+import lombok.extern.slf4j.Slf4j;
+
 
 @RestController
 @RequestMapping("addressBook")
+@Slf4j
 public class AddressBookController {
 
 	@Autowired
@@ -50,7 +53,7 @@ public class AddressBookController {
 	public ResponseEntity<ResponseDTO> addContact(
 			@Valid @RequestBody AddressBookDTO addressBookDto)
 	{
-		
+		log.debug("AddressBook DTO"+ addressBookDto.toString());
 		AddressBookData addressBookData =service.createContact(addressBookDto);
 		ResponseDTO responseDTO = new ResponseDTO("Contact Created Success :" + addressBookDto , addressBookData);
 		return new ResponseEntity<ResponseDTO>(responseDTO ,HttpStatus.CREATED);

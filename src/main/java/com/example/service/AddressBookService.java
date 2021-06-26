@@ -48,6 +48,7 @@ public class AddressBookService implements IAddressBookService {
 
 	@Override
 	public void deleteContact(int id) {
+		
 		addressBookData.remove(id-1);
 		
 	}

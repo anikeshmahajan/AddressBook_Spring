@@ -13,17 +13,13 @@ public class AddressBookDTO {
 	public String name;
 	@NotBlank
 	public String address;
-
 	
-	public AddressBookDTO(String name, String address) {
+	@NotBlank
+	public String gender;
+	
+	
+	
 
-		this.name = name;
-		this.address = address;
-	}
-
-	public AddressBookDTO() {
-		
-	}
 		
 	
 }
