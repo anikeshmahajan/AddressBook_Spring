@@ -17,4 +17,6 @@ public interface IAddressBookService {
 	
 	void deleteContact(int id);
 
+	List<AddressBookData> searchContactByName(String name);
+
 }

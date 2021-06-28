@@ -58,6 +58,13 @@ public class AddressBookService implements IAddressBookService {
 	
 		addressBookData.delete(item);
 	}
+
+	@Override
+	public List<AddressBookData> searchContactByName(String name) {
+	
+//		List<AddressBookData> ad= 
+		return addressBookData.findByNameContaining(name);
+	}
 	
 	
 

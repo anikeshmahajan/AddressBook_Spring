@@ -78,4 +78,14 @@ public class AddressBookController {
 		return new ResponseEntity<ResponseDTO>(responseDTO,HttpStatus.OK);
 	}
 	
+	@GetMapping("/find/{name}")
+	public ResponseEntity<ResponseDTO>findByName(
+						@PathVariable String name)
+	{
+		
+		List<AddressBookData> addressBookData = service.searchContactByName(name);
+		ResponseDTO responseDto = new ResponseDTO("The following names are", addressBookData);
+		return new ResponseEntity<ResponseDTO>(responseDto, HttpStatus.OK);
+	}
+	
 }

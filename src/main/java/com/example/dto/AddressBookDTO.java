@@ -21,7 +21,7 @@ public class AddressBookDTO {
 	public String state;
 	@NotBlank(message = "Field Cannot be empty")
 	public String zip;
-	@Pattern(regexp = "'((^\\+?)(([0-9]{2,3})(\\s))?)' + '[0-9]{10}$'",message = " Name Invalid")
+//	@Pattern(regexp = "'((^\\+?)(([0-9]{2,3})(\\s))?)' + '[0-9]{10}$'",message = " Name Invalid")
 	@NotBlank(message = "Field Cannot be empty")
 	public String phno;
 	@NotBlank(message = "Field Cannot be empty")
